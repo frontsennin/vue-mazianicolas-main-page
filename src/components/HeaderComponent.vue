@@ -49,6 +49,11 @@ export default {
                     title: 'Skills',
                     route: '/skills',
                     activated: false
+                },
+                {
+                    title: 'Contact',
+                    route: '/contact',
+                    activated: false
                 }
             ]
         }
