@@ -9,14 +9,12 @@
     background-color: #22292f;
     color: #fff;
     height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 999px) {
-    .content {
-        overflow-y: auto;
-        overflow-x: hidden;
-        padding-bottom: 60px;
-    }
 
     .md-view {
         display: initial;
